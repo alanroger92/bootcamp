@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <h2>ENTRE EM CONTATO, TIRE SUAS DÚVIDAS</h2>
+    <hr>
+    <p>Queremos ouvir e falar com você, saber quais são suas dúvidas e responder todas as suas perguntas sobre o nosso site.</p>
+    <h3>ATENDIMENTO</h3>
+    <P>Entre em contato por telefone, e-mail, ou se preferir, venha nos visitar.</P>
+    <p>Segunda a Sabado das 9h30 ás 17h30 <br>
+    (11)1234-56789 <br>
+    (11)98765-4321 (Whats) <br>
+    contato@portalgeeks.com.br <br>
+    Rua Geek, 1100 - Vila dos Portais - Brasil - BR</p>
+    <hr>
+    <h3>CRIE SUA CONTA DO PORTAL GEEKS</h3>
+    <form action="" method="get">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="text" name="sobrenome" placeholder="Sobrenome" required><br>
+        <input type="text" name="usuario" placeholder="Nome de usuario" required>
+        <input type="text" name="email" value="@portalsupergeeks.com.br" disabled ><br>
+        <input type="password" name="senha" placeholder="Senha" required>
+        <input type="password" name="confirmsenha" placeholder="Confirmar Senha" required>
+        <hr>
+        <h4>INFORMAÇÕES PESSOAIS</h4>
+        Telefone: <input type="text" name="telefone" placeholder="(51)XXXXX-XXXX" maxlength="14"><br>
+        Nascimento: <input type="date" name="nascimento">
+        <hr>
+        <b>Gênero:</b> <br>
+        <input type="radio" name="sexo" value="Masculino">Masculino <br>
+        <input type="radio" name="sexo" value="Feminino">Feminino
+        <hr>
+
+        <h4>Informações Complementares</h4>
+        Escolha seus estilos de games preferidos: <br>
+        <input type="checkbox" name="acao" value="ação">Ação <br>
+        <input type="checkbox" name="aventura" value="aventura">Aventura <br>
+        <input type="checkbox" name="estrategia" value="estrategia">Estratégia <br>
+        <input type="checkbox" name="rpg" value="rpg" checked>RPG <br>
+        <input type="checkbox" name="esporte" value="esporte">Esporte <br>
+        <input type="checkbox" name="corrida" value="corrida">Corrida <br>
+        <input type="checkbox" name="outro" value="outro">Outro <br>
+        <hr>
+
+        <b>Imagem do seu jogo preferido:</b><br>
+        <input type="file" name="foto">
+        <hr>
+
+        <b>Selecione sua plataforma favorita:</b><br>
+        <select name="plataforma">
+            <option value="PS4">PS4</option>
+            <option value="XOne">XOne</option>
+            <option value="Switch">Switch</option>
+            <option value="PC">PC</option>
+        </select>
+        <hr>
+        
+        <b>Mensagem:</b> <br>
+        <textarea name="mensagem" cols="100" rows="5" placeholder="Deixe sua mensagem..."></textarea><br>
+        <input type="checkbox" name="confirmar" value="confirmar">Aceito receber propagandas de jogos por email. <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <br>
+    <a href="index.html" rel="prev" id="voltar">&lt;&lt;Voltar</a>
+ 
+</body>
+</html>

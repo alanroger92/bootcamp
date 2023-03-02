@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #82dafd56;
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #4b629e, #262D40);
+    min-height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    background-color: #262D40;
+    padding: 20px 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+
+nav a{
+    color: #05AFF2;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: #0277a5;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px  0px  10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h3{
+    color: #262D40;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2{
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #0277a5, transparent);
+    text-indent: 8px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #05AFF2;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #262D40;
+}
+
+main img{
+    width: 100%;
+}
+
+aside{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+table{
+    border-style: none;
+    background-color: #ffffff;
+    margin: 1px;
+}
+
+footer{
+    background-color: #262D40;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #0277a5;
+}
+
+#voltar{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #05AFF2;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#voltar:hover{
+    text-decoration: underline;
+    color: #262D40;
+}
